@@ -82,7 +82,7 @@ app.delete('/api/product/:id', async (req, res) =>{
     }
 })
 
-mongoose.connect("mongodb+srv://hemantsonihs2004:wgZlQZXLtHqkwKbY@backenddb.zye6j2j.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backenddb")
+mongoose.connect("mongodb+srv://hemantsonihs2004:<password>@backenddb.zye6j2j.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backenddb")
 .then(()=>{
     console.log ("Connected todatabase");
     app.listen(port, () => {
